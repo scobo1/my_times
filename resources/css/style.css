@@ -11,6 +11,7 @@
   position: fixed;
   z-index: 1;
   background-color: white;
+  top: 0;
 }
 
 .logo {
@@ -67,7 +68,13 @@ nav span a {
 }
 
 .main-headline {
+  display: flex;
   border: 1px solid black;
+  background-image: url("../images/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
 .main-story {
@@ -76,6 +83,31 @@ nav span a {
 
 .article {
   border: 1px solid black;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.article-img {
+  border: 1px solid black;
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.earth-spins {
+  background-image: url("../images/img-story-2.png");
+}
+
+.cameras {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cats {
+  background-image: url("../images/img-story-1.png");
 }
 
 .stories {
@@ -83,6 +115,10 @@ nav span a {
 }
 
 .text {
+  font-family: Georgia;
+  font-weight: normal;
+  font-size: 17px;
+  color: black;
 
 }
 
