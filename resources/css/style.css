@@ -158,3 +158,38 @@ nav span a {
   padding: 10px 20px;
   text-align: left;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+
+}
+
+.footer .mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  text-align: left;
+  padding-right: 30px;
+}
+
+.footer .nav span {
+  padding: 0px 20px;
+}
+
+.footer nav {
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.footer p {
+}
